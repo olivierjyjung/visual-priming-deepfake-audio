@@ -1,0 +1,165 @@
+# =============================================================================
+# Visual Priming & Deepfake Audio Perception Study
+# .gitignore - Excludes sensitive data and generated files
+# =============================================================================
+
+# =============================================================================
+# SENSITIVE DATA - DO NOT COMMIT
+# =============================================================================
+
+# Raw participant data
+*.xlsx
+*.xls
+data/*.csv
+!data/README.md
+!data/example_data_format.csv
+
+# EEG data files (biometric data - protected by IRB)
+*.xdf
+*.edf
+*.bdf
+*.fif
+*.set
+*.eeg
+*.vhdr
+*.vmrk
+
+# Video/Audio stimuli (potential copyright)
+*.mp4
+*.avi
+*.mov
+*.mp3
+*.wav
+*.flac
+
+# Participant information
+*participant*.csv
+*participant*.xlsx
+*responses*.xlsx
+*Responses*.xlsx
+
+# =============================================================================
+# GENERATED FILES
+# =============================================================================
+
+# Analysis results (regenerated from scripts)
+results/
+analysis_results/
+output/
+*.log
+
+# Figures (regenerated)
+figures/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+!README.pdf
+
+# =============================================================================
+# PYTHON
+# =============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# =============================================================================
+# IDE / EDITORS
+# =============================================================================
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+
+# =============================================================================
+# OS FILES
+# =============================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# =============================================================================
+# MISCELLANEOUS
+# =============================================================================
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Archive files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# Credentials (never commit)
+*.pem
+*.key
+credentials.json
+config.local.json
+.env
+.env.local
