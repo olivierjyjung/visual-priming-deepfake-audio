@@ -191,6 +191,3 @@ See `data/README.md` for detailed data structure documentation.
 | N250 Amplitude | -2.14 µV | -1.42 µV | t(46) = 2.39, p = .021, d = -0.69 |
 | Frontal N2 Latency | 198 ms | 214 ms | t(46) = 2.19, p = .033, d = -0.64 |
 | ML Classification | - | - | AUC = 0.64 |
-
-
-```
