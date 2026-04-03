@@ -192,34 +192,10 @@ See `data/README.md` for detailed data structure documentation.
 | Frontal N2 Latency | 198 ms | 214 ms | t(46) = 2.19, p = .033, d = -0.64 |
 | ML Classification | - | - | AUC = 0.64 |
 
-## Citation
 
-If you use this code in your research, please cite:
-
-```bibtex
-@article{jung2026calibrating,
-  title={Calibrating the Ear: Prior AI Audio Exposure Reduces Susceptibility to Deepfake Vocals},
-  author={Jung, Olivier Jiyoun},
-  journal={[Journal Name]},
-  year={2026},
-  doi={[DOI]}
-}
 ```
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Contact
-
-**Corresponding Author:**
-Olivier Jiyoun Jung
-Division of Communication and Media
-Ewha Womans University, Seoul, Korea
-Email: [email]
-
-## Acknowledgments
-
-- Participants who contributed to this study
-- [Funding source, if applicable]
-- MNE-Python developers for EEG analysis tools
